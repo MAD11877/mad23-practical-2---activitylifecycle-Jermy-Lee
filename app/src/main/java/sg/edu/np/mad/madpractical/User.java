@@ -6,6 +6,10 @@ public class User {
     public int id;
     public boolean followed;
 
+    public User(){
+
+    }
+
     public User(String N, String D, int ID) {
         name = N;
         description = D;
